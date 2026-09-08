@@ -29,5 +29,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-##intellij konfiguration folder
+### intellij konfiguration folder ###
 .idea/
