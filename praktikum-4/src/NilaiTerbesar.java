@@ -15,15 +15,18 @@ public class NilaiTerbesar {
         }
 
         int terbesar = array[0];
-        int terbesarKedua = integer.MIN_VALUE;
+        int terbesarKedua = Integer.MIN_VALUE;
 
         for (int i = 1; i < n; i++) {
             if (array[i] > terbesar) {
                 terbesarKedua = terbesar;
                 terbesar = array[i];
             } else if (array[i] > terbesarKedua && array[i] != terbesar) {
-                terbesarKedua = array
+                terbesarKedua = array[i];
             }
         }
+        System.out.println();
+        System.out.println("Nilai terbesar : " + terbesar);
+        System.out.println("Nilai terbesar kedua : " + terbesarKedua);
     }
 }
