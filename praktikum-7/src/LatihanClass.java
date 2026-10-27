@@ -13,5 +13,6 @@ public class LatihanClass {
 
         m1.setIpk(9.9); //tidak valid, akan ditolak
         System.out.println("IPK sekarang : " + m1.getIpk());
+
     }
 }
