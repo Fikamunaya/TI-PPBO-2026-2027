@@ -21,6 +21,15 @@ public class Buku {
         return tahunTerbit;
     }
 
+    //setter
+    public void setJudul(String judul) {
+        this.judul = judul;
+    }
+
+    public void setPengarang(String pengarang) {
+        this.pengarang = pengarang;
+    }
+
     public void tampilkanData() {
         System.out.println("Judul : " + getJudul());
         System.out.println("Pengarang : " + getPengarang());
