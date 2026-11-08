@@ -8,4 +8,9 @@ public class Manager extends Pegawai {
     public void tampilkanRingkasan() {
         System.out.println("Manager : " + nama); //Error Jika private
     }
+
+    //b.getter tunjangan jabatan
+    public double getTunjanganJabatan() {
+        return tunjanganJabatan;
+    }
 }
